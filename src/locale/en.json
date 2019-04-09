@@ -1,0 +1,15 @@
+{
+    "app": {
+        "name": "Rock",
+        "welcome": "Welcome ",
+        "homepage": "Home Page",
+        "uploadpage": "Upload Demo",
+        "fragmentpage": "Fragment Demo",
+        "asyncpage": "Async Demo",
+        "ajaxpage": "Ajax Demo",
+        "profilepage": "Profile"
+    },    
+    "message": {
+        "hello": "hello world"
+    }
+}

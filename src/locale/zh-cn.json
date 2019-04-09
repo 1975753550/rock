@@ -1,0 +1,15 @@
+{
+    "app": {
+        "name": "磐石",
+        "welcome": "欢迎您，",
+        "homepage": "首页",
+        "uploadpage": "上传示例",
+        "fragmentpage": "整合碎片图片",
+        "asyncpage": "异步加载",
+        "ajaxpage": "Ajax请求",
+        "profilepage": "用户资料"
+    },
+    "message": {
+        "hello": "你好啊"
+    }
+}
