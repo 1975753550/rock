@@ -18,20 +18,24 @@
       <el-menu-item index="/fragment">
         <i class="el-icon-picture"></i>
         <span slot="title">{{ $t("app.fragmentpage") }}</span>
-      </el-menu-item>      
+      </el-menu-item>
       <el-menu-item index="/async">
         <i class="el-icon-download"></i>
         <span slot="title">{{ $t("app.asyncpage") }}</span>
-      </el-menu-item>          
+      </el-menu-item>
       <el-menu-item index="/ajax">
         <i class="el-icon-sort"></i>
         <span slot="title">{{ $t("app.ajaxpage") }}</span>
-      </el-menu-item>     
+      </el-menu-item>
       <el-menu-item index="/profile">
         <i class="el-icon-info"></i>
         <span slot="title">{{ $t("app.profilepage") }}</span>
-      </el-menu-item>           
-              
+      </el-menu-item>
+      <el-menu-item index="/usergroup">
+        <i class="el-icon-info"></i>
+        <span slot="title">{{ $t("app.usergroup") }}</span>
+      </el-menu-item>
+
     </el-menu>
 </template>
 
@@ -44,7 +48,7 @@ export default {
     }
   },
   created() {
-    this.activeIndex = this.$route.path                
+    this.activeIndex = this.$route.path
   }
 };
 </script>
@@ -52,5 +56,3 @@ export default {
 <style scoped>
 
 </style>
-
-

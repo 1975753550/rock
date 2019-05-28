@@ -7,8 +7,9 @@
         "fragmentpage": "Fragment Demo",
         "asyncpage": "Async Demo",
         "ajaxpage": "Ajax Demo",
-        "profilepage": "Profile"
-    },    
+        "profilepage": "Profile",
+        "usergroup": "usergroup"
+    },
     "message": {
         "hello": "hello world"
     }

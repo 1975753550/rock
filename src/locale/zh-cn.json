@@ -7,7 +7,8 @@
         "fragmentpage": "整合碎片图片",
         "asyncpage": "异步加载",
         "ajaxpage": "Ajax请求",
-        "profilepage": "用户资料"
+        "profilepage": "用户资料",
+        "usergroup": "用户组"
     },
     "message": {
         "hello": "你好啊"

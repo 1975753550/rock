@@ -5,6 +5,7 @@ import UploadPage from '@/pages/UploadPage'
 import FragmentPage from '@/pages/FragmentPage'
 import AjaxPage from '@/pages/AjaxPage'
 import ProfilePage from '@/pages/ProfilePage'
+import usergroup from '@/pages/usergroup'
 const AsyncPage = () => import('@/pages/AsyncPage')
 
 Vue.use(Router)
@@ -32,6 +33,9 @@ const router = new Router({
       }, {
         path: '/profile',
         component: ProfilePage
+      }, {
+        path: '/usergroup',
+        component: usergroup
       }]
     },
     { path: '*', redirect: '/404' }
