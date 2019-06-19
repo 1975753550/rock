@@ -1,42 +1,31 @@
 <template>
-    <el-menu
-      mode="vertical"
-      router
-      :default-active="activeIndex"
-      class="el-menu-vertical-demo"
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b">
-      <el-menu-item index="/" >
-        <i class="el-icon-menu"></i>
-        <span slot="title">{{ $t("app.homepage") }}</span>
+<el-menu mode="vertical" router :default-active="activeIndex" class="el-menu-vertical-demo" background-color="#FFFFFF" text-color="#000000" active-text-color="#1E90FF">
+  <el-submenu index="1">
+    <template slot="title">
+      <span>{{ $t("app.name") }}</span>
+    </template>
+    <el-menu-item index="/overview">
+      <span slot="title">{{ $t("app.IAMoverview") }}</span>
+    </el-menu-item>
+    <el-submenu index="2">
+      <template slot="title">
+        <span>{{ $t("app.user") }}</span>
+      </template>
+      <el-menu-item index="/user">
+        <span slot="title">{{ $t("app.user") }}</span>
       </el-menu-item>
-      <el-menu-item index="/upload">
-        <i class="el-icon-upload"></i>
-        <span slot="title">{{ $t("app.uploadpage") }}</span>
+      <el-menu-item index="/usergrouplist">
+        <span slot="title">{{ $t("app.usergrouplist") }}</span>
       </el-menu-item>
-      <el-menu-item index="/fragment">
-        <i class="el-icon-picture"></i>
-        <span slot="title">{{ $t("app.fragmentpage") }}</span>
-      </el-menu-item>
-      <el-menu-item index="/async">
-        <i class="el-icon-download"></i>
-        <span slot="title">{{ $t("app.asyncpage") }}</span>
-      </el-menu-item>
-      <el-menu-item index="/ajax">
-        <i class="el-icon-sort"></i>
-        <span slot="title">{{ $t("app.ajaxpage") }}</span>
-      </el-menu-item>
-      <el-menu-item index="/profile">
-        <i class="el-icon-info"></i>
-        <span slot="title">{{ $t("app.profilepage") }}</span>
-      </el-menu-item>
-      <el-menu-item index="/usergroup">
-        <i class="el-icon-info"></i>
-        <span slot="title">{{ $t("app.usergroup") }}</span>
-      </el-menu-item>
-
-    </el-menu>
+    </el-submenu>
+    <el-menu-item index="/permission">
+      <span slot="title">{{ $t("app.permission") }}</span>
+    </el-menu-item>
+    <el-menu-item index="/safesetting">
+      <span slot="title">{{ $t("app.safesetting") }}</span>
+    </el-menu-item>
+  </el-submenu>
+</el-menu>
 </template>
 
 <script>

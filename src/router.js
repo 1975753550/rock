@@ -1,12 +1,13 @@
 import Router from 'vue-router'
 import Container from '@/components/Container'
-import HomePage from '@/pages/HomePage'
-import UploadPage from '@/pages/UploadPage'
-import FragmentPage from '@/pages/FragmentPage'
-import AjaxPage from '@/pages/AjaxPage'
-import ProfilePage from '@/pages/ProfilePage'
 import usergroup from '@/pages/usergroup'
-const AsyncPage = () => import('@/pages/AsyncPage')
+import usergrouplist from '@/pages/usergrouplist'
+import usergroupdetail from '@/pages/usergroupdetail'
+import login from '@/pages/LoginPage.vue'
+import permissionList from '@/pages/permissionList'
+import createPermission from '@/pages/createPermission'
+import editArea from '@/pages/components/editArea'
+import permissionDetail from '@/pages/permissionDetail'
 
 Vue.use(Router)
 
@@ -16,26 +17,30 @@ const router = new Router({
     { path: '/',
       component: Container,
       children: [{
-        path: '/',
-        component: HomePage
-      }, {
-        path: '/upload',
-        component: UploadPage
-      }, {
-        path: '/fragment',
-        component: FragmentPage
-      }, {
-        path: '/async',
-        component: AsyncPage
-      }, {
-        path: '/ajax',
-        component: AjaxPage
-      }, {
-        path: '/profile',
-        component: ProfilePage
-      }, {
-        path: '/usergroup',
+        path: '/createusergroup',
         component: usergroup
+      }, {
+        path: '/usergrouplist',
+        component: usergrouplist
+      }, {
+        path: '/usergroupdetail',
+        component: usergroupdetail
+      }, {
+        path: '/login',
+        component: login
+      }, {
+        path: '/permission',
+        component: permissionList
+      }, {
+        path: '/createPermission',
+        component: createPermission
+      }, {
+        path: '/editArea',
+        component: editArea
+      }, {
+        path: '/permissionDetail',
+        name: 'permissionDetail',
+        component: permissionDetail
       }]
     },
     { path: '*', redirect: '/404' }

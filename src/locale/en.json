@@ -1,14 +1,27 @@
 {
     "app": {
-        "name": "Rock",
+        "name": "IAMServer",
         "welcome": "Welcome ",
-        "homepage": "Home Page",
-        "uploadpage": "Upload Demo",
-        "fragmentpage": "Fragment Demo",
-        "asyncpage": "Async Demo",
-        "ajaxpage": "Ajax Demo",
-        "profilepage": "Profile",
-        "usergroup": "usergroup"
+        "usergroup": "User Group",
+        "usergrouplist": "User Group List",
+        "usergroupdetail": "User Group Detail",
+        "IAMoverview": "OverView",
+        "permission": "Permission",
+        "safesetting": "safe setting",
+        "user": "user"
+    },
+    "usergroup": {
+      "groupName": "Group Name",
+      "userNumber": "User Num",
+      "permission": "Permission Num",
+      "createTime": "Create Time",
+      "updateTime": "Update Time",
+      "operation": "operation",
+      "addPermission": "addPermission",
+      "addUser": "addUser",
+      "delete": "delete",
+      "manage": "manage",
+      "new": "new"
     },
     "message": {
         "hello": "hello world"

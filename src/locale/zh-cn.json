@@ -1,14 +1,27 @@
 {
     "app": {
-        "name": "磐石",
+        "name": "IAM访问控制",
         "welcome": "欢迎您，",
-        "homepage": "首页",
-        "uploadpage": "上传示例",
-        "fragmentpage": "整合碎片图片",
-        "asyncpage": "异步加载",
-        "ajaxpage": "Ajax请求",
-        "profilepage": "用户资料",
-        "usergroup": "用户组"
+        "usergroup": "用户组",
+        "usergrouplist": "用户组列表",
+        "usergroupdetail": "用户组详情",
+        "IAMoverview": "概览",
+        "permission": "权限",
+        "safesetting": "安全设置",
+        "user": "用户"
+    },
+    "usergroup": {
+      "groupName": "用户组名",
+      "userNumber": "用户数量",
+      "permission": "策略数",
+      "createTime": "创建时间",
+      "updateTime": "更新时间",
+      "operation": "操作",
+      "addPermission": "添加权限",
+      "addUser": "添加用户",
+      "delete": "删除",
+      "manage": "管理",
+      "new": "新建"
     },
     "message": {
         "hello": "你好啊"

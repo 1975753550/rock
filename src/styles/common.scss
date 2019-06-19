@@ -23,7 +23,7 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0; 
+  padding: 0;
 }
 
 html {
@@ -93,3 +93,137 @@ a:hover {
 .right{
   text-align: right;
 }
+.el-table th{
+    background: #E1E4E5;
+    height: 1px;
+}
+.el-table tr:nth-child(even){
+   background: #F7F8F8;
+   border: 0px;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #F7F8F8;
+}
+.el-table td,.building-top .el-table th.is-leaf {
+    border-bottom:  1px solid #F7F8F8;
+}
+.clickLabel {
+   color: #1582F0;
+}
+.el-table--border, .el-table--group{
+  border: none;
+}
+.el-table__header-wrapper th:nth-last-of-type(2){
+  border-right: none;
+}
+.el-table--border td{
+  border-right: none;
+}
+.el-table--border::after, .el-table--group::after{
+  width: 0;
+}
+.el-tabs__item.is-active{
+  color: #303133;
+}
+.el-tabs__item:hover{
+  color: #FF9832;
+}
+.el-table__header tr,
+  .el-table__header th {
+    padding: 0;
+    height: 40px;
+}
+.el-table__body tr,
+  .el-table__body td {
+    padding: 0;
+    height: 40px;
+}
+.el-button{
+  background: #FF9832;
+  color: #FFFFFF;
+  width: 98px;
+  height: 32px;
+  border-color: #FF9832;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.el-button:hover{
+  background: #FFAD5B;
+  color: #FFFFFF;
+  width: 98px;
+  height: 32px;
+  border-color: #FF9832;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.el-button:focus{
+  background: #F18317;
+  color: #FFFFFF;
+  width: 98px;
+  height: 32px;
+  border-color: #FF9832;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.el-input__inner{
+  margin: 0px;
+  padding: 0px;
+  height: 32px;
+  vertical-align: middle;
+}
+.el-row{
+  height: 32px;
+}
+.title {
+  border-left:5px solid #1E90FF;
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.el-tabs__active-bar{
+  background-color: #FF9832;
+}
+.is-process .el-step__icon{
+  background: #1E90FF;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  border-color: #1E90FF;
+}
+.is-wait .el-step__icon{
+  background: #BFBFBF;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  border-color: #BFBFBF;
+}
+.is-finish .el-step__icon{
+  background: #1E90FF;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  border-color: #1E90FF;
+}
+.el-step__icon.is-text{
+  border: 0px;
+}
+.el-step__line{
+  margin-top: 13px;
+}
+.is-finish .el-step__line{
+  margin-top: 13px;
+  background-color: #1E90FF;
+}
+.el-step__title.is-wait{
+  color: #BFBFBF;
+}
+.el-step__title.is-process{
+  color: #1E90FF;
+}
+.el-step__icon-inner{
+  font-size: 30px;
+}
+.clear { clear: both; }

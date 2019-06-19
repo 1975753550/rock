@@ -1,18 +1,18 @@
 <template>
     <el-container>
         <el-header>
-          <RockHeader />
+          <RockHeader/>
         </el-header>
         <el-container>
             <el-aside>
-              <Sidebar />
+              <Sidebar/>
             </el-aside>
             <el-main>
               <router-view/>
             </el-main>
         </el-container>
         <el-footer height="30px">
-          <RockFooter />
+          <RockFooter/>
         </el-footer>
     </el-container>
 </template>
@@ -35,10 +35,9 @@ export default {
 }
 .el-aside {
     width: 100px;
+    border-left: 1px solid #E6E6E6;
 }
 .el-main {
-    background-color: #eee;
+    background-color: #FFFFFF;
 }
 </style>
-
-

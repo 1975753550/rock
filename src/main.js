@@ -7,7 +7,10 @@ import App from './App'
 import Sidebar from '@/components/Sidebar'
 import RockFooter from '@/components/RockFooter'
 import RockHeader from '@/components/RockHeader'
+import { codemirror } from 'vue-codemirror'
+import 'codemirror/lib/codemirror.css'
 
+Vue.use(codemirror)
 Vue.config.productionTip = false
 
 Vue.component('Sidebar', Sidebar)
